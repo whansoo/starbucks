@@ -129,6 +129,3 @@ function random(min, max) {
       nextEl: '.awards .swiper-next'
    }
   })
-
-  const thisYear = document.querySelector('.this-year');
-  thisYear.textContent = new Date().getFullYear(); //2022

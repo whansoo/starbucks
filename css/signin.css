@@ -1,0 +1,78 @@
+.signin {
+    margin-top: 120px;
+    padding: 100px 0 150px;
+    background-image:  url("../images/signin_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.signin h1 {
+   color: #fff;
+   font-size: 30px;
+   font-weight: 700;
+   text-align: center;
+   margin-bottom: 24px;
+}
+.signin__card {
+   width: 500px; 
+   margin: 0 auto;
+   border-radius: 6px;
+   background-color: #f6f5f0;
+   box-shadow: 2px 2px 20px rgba(0,0,0,.3);
+   color: #555;
+}
+.signin__card h2 {
+    padding: 30px;
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 1px solid #ddd; /*아래 테두리 선 한줄 표시*/
+}
+.signin__card h2 strong {
+    font-weight: 700;
+    color: #063;
+}
+.signin__card form {
+    padding: 30px 22px;
+}
+.signin__card form input {
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none; /*파란색 선 안보이게 처리*/
+    box-sizing: border-box; /*입력 박스가 border box에 맞게 줄어듬 가로사이즈 100%이상 늘어나지않게 처리*/
+    font-size: 14px;
+}
+.signin__card form [type="submit"] {
+    background-color: #063;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.signin__card form p {
+    font-size: 12px;
+    color: #063;
+    text-align: center;
+}
+.signin__card .actions {
+    display: flex; /*수평정렬*/
+    border-top: 1px solid #ddd; /*테두리선 위쪽만 만듬*/
+}
+.signin__card .actions a {
+    flex-grow: 1; /*요소의 증가비율*/
+    flex-basis: 0; /*가로너비를 1:1:1로 하겠다*/
+    text-align: center;
+    padding: 20px;
+    color: #555;
+    font-size: 14px;
+    border-right: 1px solid #ddd; /*오른쪽 테두리 선*/
+}
+.signin__card .actions a:last-child {
+    border-right: none;  /*오른쪽 마지막 a태그의 테두리 선은 사용하지 않겠다*/
+}
+.signin__card .actions a:hover {
+    text-decoration: underline;
+}
